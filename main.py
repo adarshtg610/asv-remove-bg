@@ -1,8 +1,5 @@
 # Made with python3
-# (C) @FayasNoushad
-# Copyright permission under MIT License
-# All rights reserved by FayasNoushad
-# License -> https://github.com/FayasNoushad/Remove-BG-Bot/blob/main/LICENSE
+
 
 import os
 import requests
@@ -20,30 +17,25 @@ FayasNoushad = Client(
 )
 
 START_TEXT = """
-Hello {}, I am a photo background remover bot. Send me a photo I will send the photo without background.
+👋Hello {}, I am a photo background remover bot. Send me a photo I will send the photo without background.
 
-Made by @FayasNoushad
+contact me @asv_chat01_bot ❤️
 """
 HELP_TEXT = """
 - Just send me a photo
 - I will download it
 - I will send the photo without background
 
-Made by @FayasNoushad
+🙌🙌
 """
 ABOUT_TEXT = """
 - **Bot :** `Backround Remover Bot`
-- **Creator :** [Fayas](https://telegram.me/TheFayas)
-- **Channel :** [Fayas Noushad](https://telegram.me/FayasNoushad)
-- **Source :** [Click here](https://github.com/FayasNoushad/Remove-BG-Bot/tree/main)
-- **Language :** [Python3](https://python.org)
-- **Library :** [Pyrogram](https://pyrogram.org)
-- **Server :** [Heroku](https://heroku.com)
+- **Channel :** [AsV bots](https://t.me/asvbots)
+
 """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Channel', url='https://telegram.me/FayasNoushad'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/TheFayas')
+        InlineKeyboardButton('asv bots Channel', url='https://t.me/asvbots')
         ],[
         InlineKeyboardButton('Help', callback_data='help'),
         InlineKeyboardButton('About', callback_data='about'),
@@ -72,7 +64,7 @@ ERROR_BUTTONS = InlineKeyboardMarkup(
     )
 BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Join Updates Channel', url='https://telegram.me/FayasNoushad')
+        InlineKeyboardButton('Join asv Updates Channel', url='https://t.me/asvbots')
         ]]
     )
 
