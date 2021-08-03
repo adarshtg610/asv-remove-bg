@@ -5,10 +5,7 @@ A photo background remover telegram bot with pyrogram framework.
 ---
 
 ```
-Made with Python3
-(C) @FayasNoushad
-Copyright permission under MIT License
-License -> https://github.com/FayasNoushad/Remove-BG-Bot/blob/main/LICENSE
+
 ```
 
 ---
@@ -20,7 +17,7 @@ License -> https://github.com/FayasNoushad/Remove-BG-Bot/blob/main/LICENSE
 <br/>
 
 <p align="left">
-  <a href="https://heroku.com/deploy?template=https://github.com/FayasNoushad/Remove-BG-Bot">
+  <a href="https://heroku.com/deploy?template=https://github.com/adarshtg610/asv-remove-bg">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 </p>
@@ -58,7 +55,3 @@ python3 main.py
 
 ---
 
-## Credits
-
-- [Fayas Noushad](https://github.com/FayasNoushad)
-- [Pyrogram](https://github.com/pyrogram/pyrogram)
